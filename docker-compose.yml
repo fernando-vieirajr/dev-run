@@ -1,0 +1,12 @@
+services:
+  dev-run:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    volumes:
+      - ./logs:/app/logs
+    env_file:
+      - .env
+    stdin_open: true
+    tty: true
+    command: python src/main.py
