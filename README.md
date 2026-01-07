@@ -1,4 +1,4 @@
-# Dev Run | Azure DevOps Effort Calculator AGTech
+# Dev Run | Azure DevOps Effort Calculator
 
 Este projeto executa um **job pontual em Docker** para calcular métricas de velocidade e business value a partir de itens concluídos no **Azure DevOps**, persistindo o resultado em arquivo de log no host. O container executa, gera o resultado, registra o log e encerra automaticamente.
 
